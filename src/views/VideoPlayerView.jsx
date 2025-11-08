@@ -2,7 +2,7 @@ import React from 'react';
 import { useAppContext } from '../context/useAppContext';
 import { VideoPlayer } from '../components/video/VideoPlayer';
 import { VideoInfo } from '../components/video/VideoInfo';
-import { CommentsSection } from '../components/comments/CommentsSection';
+import { CommentSection } from '../components/comments/CommentSection';
 
 
 export const VideoPlayerView = () => {
@@ -31,7 +31,7 @@ export const VideoPlayerView = () => {
           <VideoInfo video={selectedVideo} />
         </div>
         
-        <CommentsSection videoId={selectedVideo.id} />
+        <CommentSection videoId={selectedVideo.id} />
       </div>
     </div>
   );

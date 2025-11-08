@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react';
-import { apiService } from '../api/videoService';
+import { apiService } from '../api/VideoPlayerService';
 
 export const AppContext = createContext(null);
 
