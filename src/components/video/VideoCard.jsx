@@ -1,10 +1,5 @@
-/**
- * Video card component for grid display
- * Displays video thumbnail, title, description, and metadata
- * @param {Object} props
- * @param {Video} props.video - Video object
- * @param {Function} props.onClick - Click handler
- */
+import React from 'react';
+
 export const VideoCard = ({ video, onClick }) => (
   <div
     onClick={onClick}

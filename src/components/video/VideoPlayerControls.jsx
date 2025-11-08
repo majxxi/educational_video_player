@@ -1,13 +1,6 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { CONFIG } from '../../config/constants';
 
-/**
- * Video player controls component
- * Provides play/pause, volume, speed, and fullscreen controls
- * @param {Object} props
- * @param {React.RefObject} props.videoRef - Reference to video element
- * @param {boolean} props.isPlaying - Current playing state
- * @param {Function} props.onTogglePlay - Play/pause handler
- */
 export const VideoPlayerControls = ({ videoRef, isPlaying, onTogglePlay }) => {
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(1);

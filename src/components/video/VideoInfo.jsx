@@ -1,9 +1,5 @@
-/**
- * Video information component
- * Displays video title, description, and metadata
- * @param {Object} props
- * @param {Video} props.video - Video object
- */
+import React from 'react';
+
 export const VideoInfo = ({ video }) => (
   <div className="mt-6 bg-white border border-gray-200 rounded-lg p-6">
     <h2 className="text-2xl font-bold text-gray-900 mb-2">{video.title}</h2>

@@ -1,9 +1,4 @@
-/**
- * Individual comment component
- * Displays a single comment with author and timestamp
- * @param {Object} props
- * @param {Comment} props.comment - Comment object
- */
+import React from 'react';
 
 export const CommentItem = ({ comment }) => (
   <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">

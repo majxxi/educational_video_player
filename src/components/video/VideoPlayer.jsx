@@ -1,11 +1,6 @@
-import { useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { VideoPlayerControls } from './VideoPlayerControls';
 
-/**
- * Video player component wrapper
- * Contains video element and controls
- * @param {Object} props
- * @param {Video} props.video - Video object
- */
 export const VideoPlayer = ({ video }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);

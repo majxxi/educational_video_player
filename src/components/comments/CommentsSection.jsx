@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useAppContext } from '../../context/useAppContext';
+import { validateCommentForm } from '../../utils/validation';
+import { CONFIG } from '../../config/constants';
+import { CommentForm } from './CommentForm';
+import { CommentItem } from './CommentItem';
 
-/**
- * Comments section component
- * Displays list of comments and form for new comments
- * @param {Object} props
- * @param {string} props.videoId - Video ID
- */
 export const CommentsSection = ({ videoId }) => {
   const { comments, createComment, fetchComments } = useAppContext();
   const [error, setError] = useState('');

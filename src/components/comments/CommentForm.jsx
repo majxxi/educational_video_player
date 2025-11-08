@@ -1,12 +1,6 @@
-import { useState } from 'react';
-
-/**
- * Comment form component
- * Form for submitting new comments
- * @param {Object} props
- * @param {Function} props.onSubmit - Submit handler
- * @param {string} props.error - Error message
- */
+import React, { useState } from 'react';
+import { ErrorMessage } from '../common/ErrorMessage';
+import { CONFIG } from '../../config/constants';
 
 export const CommentForm = ({ onSubmit, error }) => {
   const [author, setAuthor] = useState('');
