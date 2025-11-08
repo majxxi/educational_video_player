@@ -126,33 +126,22 @@ The optimized build will be in the `build/` folder.
 ## Screenshots
 
 ### 1. Splash Screen
+<img width="1115" height="766" alt="Screenshot 2025-11-08 at 10 49 52 AM" src="https://github.com/user-attachments/assets/96eaaa98-cb78-4519-8aff-ad1c133d5fb9" />
 
 
 ---
 
 ### 2. Video List View
+<img width="1206" height="723" alt="Screenshot 2025-11-08 at 10 50 47 AM" src="https://github.com/user-attachments/assets/f3725f16-faa2-4cd0-91ba-64e1d22aa073" />
 
 ---
 
 ### 3. Video Upload Form
+<img width="711" height="732" alt="Screenshot 2025-11-08 at 10 50 20 AM" src="https://github.com/user-attachments/assets/7db6fba4-0e78-45b4-8049-cd878c8b073f" />
 
 
 ---
 
-### 4. Video Player
-
-
----
-
-### 5. Comments Section
-
-
----
-
-### 6. Responsive Mobile View
-
-
----
 
 ##  Testing the Application
 
