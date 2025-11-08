@@ -2,8 +2,7 @@ import React from 'react';
 import { useAppContext } from '../context/useAppContext';
 import { VideoPlayer } from '../components/video/VideoPlayer';
 import { VideoInfo } from '../components/video/VideoInfo';
-import { CommentSection } from '../components/comments/CommentSection';
-
+import { CommentsSection } from '../components/comments/CommentsSection';
 
 export const VideoPlayerView = () => {
   const { selectedVideo, navigateTo } = useAppContext();
@@ -31,7 +30,7 @@ export const VideoPlayerView = () => {
           <VideoInfo video={selectedVideo} />
         </div>
         
-        <CommentSection videoId={selectedVideo.id} />
+        <CommentsSection videoId={selectedVideo.id} />
       </div>
     </div>
   );
