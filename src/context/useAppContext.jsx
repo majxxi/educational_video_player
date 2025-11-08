@@ -1,10 +1,6 @@
 import { useContext } from 'react';
+import { AppContext } from './AppContext';
 
-/**
- * Custom hook to access app context
- * @throws {Error} If used outside AppProvider
- * @returns {Object} App context value
- */
 export const useAppContext = () => {
   const context = useContext(AppContext);
   if (!context) {

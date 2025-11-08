@@ -1,7 +1,11 @@
-/**
- * Router component - handles view rendering
- * Routes between different views based on current state
- */
+import React from 'react';
+import { AppProvider } from './context/AppContext';
+import { useAppContext } from './context/useAppContext';
+import { SplashScreen } from './views/SplashScreen';
+import { VideoListView } from './views/VideoListView';
+import { VideoUploadForm } from './views/VideoUploadForm';
+import { VideoPlayerView } from './views/VideoPlayerView';
+
 const AppRouter = () => {
   const { view } = useAppContext();
 
