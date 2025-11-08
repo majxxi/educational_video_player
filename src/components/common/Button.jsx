@@ -1,12 +1,5 @@
-/**
- * Reusable button component
- * @param {Object} props
- * @param {React.ReactNode} props.children - Button content
- * @param {Function} props.onClick - Click handler
- * @param {string} props.variant - Button style variant (primary|secondary)
- * @param {boolean} props.disabled - Disabled state
- * @param {string} props.className - Additional CSS classes
- */
+import React from 'react';
+
 export const Button = ({ 
   children, 
   onClick, 
