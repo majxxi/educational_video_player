@@ -7,6 +7,7 @@ import { useState } from 'react';
  * @param {Function} props.onSubmit - Submit handler
  * @param {string} props.error - Error message
  */
+
 export const CommentForm = ({ onSubmit, error }) => {
   const [author, setAuthor] = useState('');
   const [content, setContent] = useState('');
@@ -30,7 +31,7 @@ export const CommentForm = ({ onSubmit, error }) => {
         type="text"
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
-        placeholder="Your name"
+        placeholder="What is your name?"
         className="w-full px-3 py-2 bg-white border border-gray-300 text-gray-900 rounded-lg mb-2 focus:ring-2 focus:ring-gray-900 focus:outline-none"
         maxLength="50"
       />
@@ -40,7 +41,7 @@ export const CommentForm = ({ onSubmit, error }) => {
           value={content}
           onChange={(e) => setContent(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Add a comment..."
+          placeholder="What do you think of the video?"
           className="flex-1 px-3 py-2 bg-white border border-gray-300 text-gray-900 rounded-lg focus:ring-2 focus:ring-gray-900 focus:outline-none"
           maxLength={CONFIG.MAX_COMMENT_LENGTH}
         />

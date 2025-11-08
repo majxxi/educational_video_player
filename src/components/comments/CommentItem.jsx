@@ -4,6 +4,7 @@
  * @param {Object} props
  * @param {Comment} props.comment - Comment object
  */
+
 export const CommentItem = ({ comment }) => (
   <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">
     <p className="text-sm font-semibold text-gray-900 mb-1">

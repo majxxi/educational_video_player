@@ -15,7 +15,7 @@ export const VideoListView = () => {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-3xl font-bold text-gray-900">EduStream</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Educational Video Player</h1>
           <Button
             onClick={() => navigateTo('create')}
             className="flex items-center gap-2"
